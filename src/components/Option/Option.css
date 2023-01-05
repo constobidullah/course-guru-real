@@ -1,0 +1,10 @@
+.option{
+    background-color: rgb(234, 218, 250);
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid rgb(244, 237, 201);
+    padding: 3px;
+}
+.option-item{
+    display: flex;
+}

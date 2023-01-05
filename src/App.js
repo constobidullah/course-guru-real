@@ -33,7 +33,7 @@ function App() {
         },
         {
           path: "/:Id",
-          loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.Id}`),
+          loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/4`),
           element: <QuizItem></QuizItem>
         }
       ]

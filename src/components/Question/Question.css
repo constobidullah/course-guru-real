@@ -1,0 +1,11 @@
+.question{
+    background-color: rgb(229, 202, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+.question-and-eyeicon{
+    display: flex;
+    justify-content: space-between;
+}
