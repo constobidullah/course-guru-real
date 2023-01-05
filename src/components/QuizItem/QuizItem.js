@@ -9,7 +9,7 @@ const QuizItem = () => {
     
     return (
         <div>
-            <h1 className='text-4xl font-bold mt-28'>Quiz name {name} </h1>
+            <h1 className='text-4xl font-bold mt-28'>Quiz of {name} </h1>
             {
                 questions.map(questionProps => <Question
                     questionProps={questionProps}
