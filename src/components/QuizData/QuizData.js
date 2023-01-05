@@ -1,10 +1,10 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './QuizData.css'
 
 const QuizData = ({ quiz }) => {
-    const { logo, name, total } = quiz;
-    console.log(quiz)
+    const { id, logo, name, total } = quiz;
+
     return (
         <div className='quizdata'>
             <div className='quiz-show-container'>
@@ -20,7 +20,9 @@ const QuizData = ({ quiz }) => {
 
             </div>
             <div className='practice-button w-full rounded-md'>
-                <button className='p-1 font-bold text-2xl'>Start practice</button>
+                <Link to={`/home${id}`}>
+                    <button className='p-1 font-bold text-2xl'>Start practice</button>
+                </Link>
             </div>
         </div>
     );

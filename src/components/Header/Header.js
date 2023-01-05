@@ -9,7 +9,7 @@ const Header = () => {
             <h2 className='text-4xl text-amber-400 font-bold'>Course Guru</h2>
 
             <nav className='header-link'>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/statics">Statics</Link>
                 <Link to="/blog">Blog</Link>
             </nav>
