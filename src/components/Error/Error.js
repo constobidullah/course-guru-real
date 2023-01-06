@@ -4,7 +4,7 @@ import logo from '../../image/error.jpg'
 const Error = () => {
     return (
         <div>
-            <img src={logo} alt="" />
+            <h3>page not found</h3>
         </div>
     );
 };
