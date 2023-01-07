@@ -15,21 +15,10 @@ const Option = ({ option }) => {
         theme: "light",
     });
 
-    const errorNotify = () => toast.error('🦄 Wow so easy!', {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-    });
-
     return (
         <div className='option'>
             <div className='option-item'>
-                <input onClick={errorNotify} type="radio" name="" id="" />
+                <input onClick={notify} type="radio" name="" id="" />
                 <ToastContainer
                     position="top-center"
                     autoClose={5000}

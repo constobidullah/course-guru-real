@@ -1,7 +1,6 @@
 import React from 'react';
-import { useLoaderData, useNavigate } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 import QuizData from '../QuizData/QuizData';
-import logo from '../../image/banner.jpg'
 import './Home.css';
 
 const Home = () => {

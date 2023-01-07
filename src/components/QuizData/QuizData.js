@@ -15,7 +15,7 @@ const QuizData = ({ quiz }) => {
 
                 <div>
                     <p className='text-3xl text-left font-bold text-slate-700'>{name}</p>
-                    <p className='text-2xl text-left font-bold text-slate-700'>Total quiz are {total}</p>
+                    <p className='text-2xl text-left font-bold text-slate-700'>Total are {total} quiz</p>
                 </div>
 
             </div>
