@@ -5,7 +5,6 @@ import Chart from '../Chart/Chart';
 
 const Statics = () => {
     const quizData = useLoaderData();
-
     return (
         <div>
             {
