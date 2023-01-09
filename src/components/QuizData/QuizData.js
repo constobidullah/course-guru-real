@@ -20,7 +20,7 @@ const QuizData = ({ quiz }) => {
 
             </div>
             <div className='practice-button w-full rounded-md'>
-                <Link to={`/${id}`}>
+                <Link to={`/home/${id}`}>
                     <button className='p-1 font-bold text-2xl'>Start practice</button>
                 </Link>
             </div>

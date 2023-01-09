@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from '../../image/error.jpg'
 
-const Error = () => {
+const NotFound = () => {
     return (
         <div>
-            <h3>page not found</h3>
+           <img className='w-full' src={logo} alt="" />
         </div>
     );
 };
 
-export default Error;
+export default NotFound;
